@@ -1,0 +1,180 @@
+html {
+    background-color: #dbebfa;
+    display: block;
+    margin: 0 24px;
+}
+
+h1 {
+    font-family: Lato;
+    font-weight: 900;
+    color: #00334e;
+    text-align: center;
+    z-index: 1;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border-radius: 50%;
+    top: 5px;
+    left: 380px;
+    z-index: -1;
+}
+
+.article {
+    font-family: Montserrat;
+    color:#00334e;
+    text-align: left;
+}
+
+.container {
+    display: block;
+}
+
+h2 {
+    color: #004d73;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+
+.color-container, .text-container {
+    border-radius: 10px;
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+/* Colors */
+
+.color-container {
+    background-color: #007fbd;    
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+.color-panel {
+    border-radius: 15px;
+    padding: 0 32px;
+}
+
+.regal-blue {
+    background-color: #004d73;
+    color: #fff;
+}
+
+.prussian-blue {
+    background-color: #00334e;
+    color: #fff;
+}
+
+.lochmara {
+    border: 2px solid #00334e;
+}
+
+.tropical-blue {
+    background-color: #dbebfa;
+}
+
+/* Fonts */
+
+ol {
+    font-family: Montserrat;
+    color:#00334e;
+}
+
+.font-container {
+    background-color: #00334e;
+    border-radius: 10px;
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    padding: 50px 0;
+    color: #dbebfa;
+}
+
+.font-desc {
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #000;
+}
+
+#font-desc {
+    color: #00334e;
+}
+
+.font-desc p:first-child {
+    color: #00334e;
+}
+
+.font-label {
+    text-transform: uppercase;
+}
+
+.roboto {
+    font-family: Roboto;
+}
+
+.lato {
+    font-family: Lato;
+}
+
+.open-sans {
+    font-family: 'Open Sans';
+}
+
+.montserrat {
+    font-family: Montserrat;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+/* Text styles */
+
+ul {
+    font-family: Montserrat;
+    font-weight: 400;
+    list-style: none;
+}
+
+.text-container {
+    background-color: #004d73;
+    color: #dbebfa;
+}
+
+.text-container h1,
+.text-container h2,
+.text-container p {
+    color: #fff;
+}
+
+.text-container h2 {
+    text-transform: unset;
+    text-align: center;
+    margin-right: 12px;
+}
+
+.text-container p {
+    font-family: Montserrat;
+    text-align: center;
+    margin-right: 48px;
+}
+
+footer {
+    font-family: Montserrat;
+    text-align: center;
+    font-style: italic;
+    color: #004d73b6;
+}
